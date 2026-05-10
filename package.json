@@ -1,0 +1,28 @@
+{
+  "name": "solsense-mcp",
+  "version": "0.1.0",
+  "description": "Solana developer MCP server — live chain context for AI coding assistants",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node --esm src/index.ts",
+    "start": "node dist/index.js",
+    "cli": "node dist/cli.js"
+  },
+  "bin": {
+    "solsense": "./dist/cli.js"
+  },
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.30.0",
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@solana/web3.js": "^1.98.0",
+    "commander": "^14.0.3",
+    "dotenv": "^16.0.0",
+    "zod": "^3.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.3.0"
+  }
+}
