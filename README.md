@@ -1,4 +1,10 @@
 # SolSense — On-Chain Intelligence for AI Coding Assistants
+---
+## Demo
+
+https://github.com/user-attachments/assets/a028185e-cd7d-4498-a9b7-03c0a6c3ac34
+
+---
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?logo=typescript&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?logo=nodedotjs&logoColor=white)
@@ -167,12 +173,6 @@ sidetrack/
 - `console.error()` for all logging (stdout is reserved for MCP protocol JSON)
 - Errors returned as `{ content, isError: true }` — never thrown to transport
 - All public functions have explicit return types, TypeScript strict mode
-
----
-
-## Demo
-
-> 📺 **Video demo:** [Coming soon — YouTube link]
 
 ---
 
