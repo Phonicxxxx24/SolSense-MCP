@@ -82,7 +82,7 @@ function buildExplanation(tx: ParsedTransactionWithMeta, sig: string): string {
     if (delta !== 0) {
       const sign = delta > 0 ? "+" : "-";
       balanceChanges.push(
-        `  ${accounts[i].slice(0, 20)}...  ${sign}${formatLamports(delta)}`
+        `  ${accounts[i]}  ${sign}${formatLamports(delta)}`
       );
     }
   }

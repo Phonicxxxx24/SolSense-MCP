@@ -62,7 +62,7 @@ server.tool(
       ? result.recentTransactions
           .map(
             (tx, i) =>
-              `  ${i + 1}. ${tx.status === "success" ? "✓" : "✗"} ${tx.signature.slice(0, 20)}...  (slot ${tx.slot})`
+              `  ${i + 1}. ${tx.status === "success" ? "✓" : "✗"} ${tx.signature}  (slot ${tx.slot})`
           )
           .join("\n")
       : "  No recent transactions found.";
