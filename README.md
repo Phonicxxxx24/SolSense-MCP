@@ -36,7 +36,7 @@ All tools are wired with **proactive trigger descriptions** — the AI calls the
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/solsense-mcp.git
+git clone https://github.com/Phonicxxxx24/SolSense-MCP.git
 cd solsense-mcp
 
 # 2. Copy the environment template and fill in your key
