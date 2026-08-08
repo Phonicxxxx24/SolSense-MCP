@@ -1,8 +1,4 @@
-# SolSense — On-Chain Intelligence for AI Coding Assistants
----
-## Demo
-
-https://github.com/user-attachments/assets/a028185e-cd7d-4498-a9b7-03c0a6c3ac34
+# SolSense On-Chain Intelligence for AI Coding Assistants
 
 ---
 
